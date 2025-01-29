@@ -6,6 +6,8 @@ describe('Alerst',()=>{
         cy.get("button[onclick='jsAlert()']").click()
 
         //if we want to validate something then we have to use some event like this window:alert
+        ////doing git practice
+        
 
         cy.on('window:alert',(t)=>{
             expect(t).to.contains('I am a JS Alert')
