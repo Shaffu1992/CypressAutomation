@@ -27,6 +27,7 @@ describe("Assertions demo",()=>{
 //         cy.get("input[placeholder='Username']").type("Admin")///provide  a value to username input box
 //         cy.get("input[placeholder='Username']").should('have.value',"Admin") // validating the value
 // })
+////Atiqqq
 
 // it("Explicit assertions",()=>{
 it("Implicit assertions",()=>{
